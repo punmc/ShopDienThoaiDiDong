@@ -1,0 +1,150 @@
+﻿
+#main {
+    width:100%; 
+    height:auto; 
+    margin:0 auto;
+    border:3px solid #5bbdc8;
+    
+}
+
+#top {
+    height:30px;
+    border-bottom:3px solid #5bbdc8;
+    padding:15px 15px;
+}
+
+#top a {
+    height: 15px;
+    text-decoration: none;
+    display: block;
+    color: black;
+    background-color: #5bbdc8;
+    font-weight:bold;
+    font-size:larger;
+    padding:7px;
+    padding-left:10px;
+
+}
+
+#top a:hover{color:#f9e54e;}
+
+#top-1 {
+    height:100px;
+    padding:15px;
+    border-bottom:3px solid #5bbdc8;
+}
+
+h3{margin:0;}
+
+#top-1 text
+{
+    font-size:large;
+    line-height:5px;
+
+}
+
+#top-1 .button{
+    float: right;
+    background-color: white;
+    border-radius: 10px 10px;
+    font-weight: bold;
+    width: 100px;
+    border: 1px double #5bbdc8;
+    box-shadow: 2px 2px #5bbdc8;
+}
+
+#top-1 .button:hover{background-color:orange;}
+
+
+#top-2 { /*Các sản phẩm đã thêm vào giỏ hàng*/
+    height:auto;
+    border-bottom:3px solid #5bbdc8;
+    padding:10px;
+}
+
+.grid{
+    width:1070px;
+    height:auto;
+    text-align:center;
+    display:inline-block;
+}
+
+.grid td{
+    width:220px;
+}
+
+#top-2 .anh{
+    width:200px;
+    height:200px;
+}
+
+
+#top-3 { /*Mã khuyến mãi*/
+    padding:15px;
+    height:60px;
+    border-bottom:3px solid #5bbdc8;
+
+}
+
+#top-3 .textbox{
+    width: 130px;
+    border-radius: 10px;
+}
+
+#top-4 {
+    height:50px;
+    padding:15px 0;
+}
+
+.a{
+    height: 50px;
+    width: 110px;
+    display: block;
+    text-align: center;
+    background-color: red;
+    text-decoration: none;
+    margin:0px auto;
+    border-radius:10px 10px;
+    color:black;
+    padding-top:5px;
+
+    font-size:large;
+}
+
+.a:hover{
+    transition:ease-in 0.6s;
+    -moz-transition:ease-in 0.6s;
+    -webkit-transition:ease-in 0;
+    background-color:orange;
+    box-shadow:0 4px 8px 0 #f9e54e, 0 6px 20px 0 #f9e54e;
+    color:white;
+}
+
+#top-5{
+    height:80px;
+    padding:10px;
+    border-bottom: 3px solid #5bbdc8;
+}
+
+#can{
+    width:250px;
+    height:100%;
+    float:right;
+    margin-right:20px;
+    display:inline;
+}
+
+#can .title{
+    float:left;
+}
+
+#can .money{
+    float:left;
+    margin-left:65px;
+}
+
+.p{
+    color:#ff0000;
+    text-decoration:underline;
+    float:right;
+}

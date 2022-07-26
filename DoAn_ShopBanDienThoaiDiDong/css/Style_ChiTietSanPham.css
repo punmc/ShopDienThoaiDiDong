@@ -1,0 +1,85 @@
+﻿body {
+    width:1000px;
+    height:auto;
+    font:14px, Verdana;
+    margin:5px auto;
+}
+
+#plHolder_mainContent{
+    border:3px solid #f8981d;
+}
+
+#Table1{
+    border:solid 5px #f8981d;
+}
+
+.hinh{
+    margin:10px;
+    width:400px;
+    height:400px;
+    float:left;
+}
+
+
+.ten{
+    flex: 1;
+    font-weight: 500;
+    font-size:xx-large;
+    color: #212529;
+}
+
+.tile .lb{
+    font-size:large;
+}
+
+.gia{
+    text-decoration:line-through;
+    font-size:large;
+}
+
+.thanhtien{
+    font-weight: 500;
+    color: #cb1c22;
+    font-size:x-large;
+}
+
+.vnd{
+    font-weight: 500;
+    color: #cb1c22;
+    text-decoration:underline;
+    font-size:x-large;
+}
+
+#btn a{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    background-color:white;
+    color:red;
+    font-size:large;
+    border-radius:10px 10px;
+    font-weight:bold;
+    width:180px;
+    height:23px;
+    border:1px double #5bbdc8;
+    box-shadow:2px 2px #5bbdc8;
+}
+
+#btn a:hover{
+    background-color:#5bbdc8;
+    color:white;
+}
+
+.lb{
+    font-weight:bold;
+}
+
+#table2{
+    border:hidden 2px double #5bbdc8;
+    
+}
+
+#table2 td{
+    width:350px;
+    padding-left:5px;
+}

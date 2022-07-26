@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin_Page.master.cs" Inherits="Admin_Page" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+      <link type="text/css" href="css/Admin_page.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="Main">
+   
+         <div id="List_QL" style="width:100%;border-bottom-left-radius:30%;border-bottom-right-radius:30%;" >
+              <ul  style ="width:100%">
+                  <li style="border-bottom-left-radius:30%"><a href="QL_KM_Admin.aspx">Quản lý khuyến mãi</a></li>
+                  <li ><a href="QL_DATHANG.aspx">Quản lý đơn hàng</a></li>
+                  <li ><a href="QL_KHACHHANG_ADMIN.aspx">Quản lý khách hàng</a></li>
+                  <li ><a href="QL_SANPHAM_Admin.aspx">Quản lý sản phẩm</a></li>
+              </ul>
+          </div>
+        <div id="content" style="background-color:#1e1e1e;">
+          <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+      </div>
+        </div>
+    </form>
+</body>
+</html>

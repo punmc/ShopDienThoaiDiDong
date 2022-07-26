@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>GenZ</title>
+    <link type="text/css" href="css/Style_MasterPage.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="allPage">
+        
+        
+        <div id="header">
+            <div class="logo">
+                <a href="/TrangChu.aspx"><img src="image_icon/logo.png" /></a>
+            </div>
+            <div class="search">
+                <a href="#"><asp:TextBox ID="txtSearch" runat="server" PlaceHolder="Bạn tìm gì..." Width="180px" Height="25px" TextMode="Search" OnTextChanged="txtSearch_TextChanged"></asp:TextBox></a>
+            </div>
+            <ul>
+                <li><a href="/TrangChu.aspx?mnu=sale" ><asp:Image ID="Image4" runat="server" ImageUrl="~/image_icon/3702391-discount-hot-sale-shopping_108729.png" />Khuyến mãi</a></li>
+                <li><a href="/TrangChu.aspx?mnu=bills"><asp:Image ID="Image3" runat="server" ImageUrl="~/image_icon/bill_icon-icons.com_64622.png" />Đơn hàng</a></li>
+                <li><a href="/TrangChu.aspx?mnu=cart"><asp:Image ID="Image2" runat="server" ImageUrl="~/image_icon/shopping-cart_icon-icons.com_72552.png"/>Giỏ hàng</a></li>
+                <li> <a href="#"><asp:Image ID="Image5" runat="server" ImageUrl="~/image_icon/call-contact_icon-icons.com_68577.png" />Liên hệ</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <asp:ContentPlaceHolder id="plHolder_mainContent" runat="server">
+            
+            </asp:ContentPlaceHolder>
+        
+        </div>
+        <div id="footer">
+            <div class="logo"><a href="/TrangChu.aspx"><img src="image_icon/logo.png" /></a></div>
+            <div id="info">
+                <p>Địa chỉ: 180 Phan Đình Toản, phường Tân Sơn Nhì, Quận Tân Phú, TP. HCM</p>
+                <p>SĐT: 090.777.3232</p>
+                <p>Email: hkt4@gmail.com</p>
+            </div>
+            <div id="note">
+                <p>Chịu trách nhiệm: Công ty GenZ - Công nghệ Thời Đại Z</p>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

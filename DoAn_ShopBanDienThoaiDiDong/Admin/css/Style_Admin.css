@@ -1,0 +1,62 @@
+﻿body {
+    font: normal 14px Arial;
+    color: #333;
+    margin:0;
+    padding:0;
+}
+
+a{text-decoration:none;}
+
+/*CSS for header*/
+
+#header{height:80px; overflow:hidden; background-color:orange;}
+
+#header .logo{float:left}
+
+#header .logo img{width:60px; height:60px; padding:10px;}
+
+#header .account{float:right;}
+
+#header .account p{padding:10px; font-size:large; color:white;}
+
+
+/*CSS for menu*/
+
+#menuChinh{
+    background:#5bbdc8;
+}
+
+#menuChinh ul{text-align:center;}
+
+#menuChinh ul li{display:inline-block; list-style:none; margin:0; padding:0;}
+
+#menuChinh ul li a{display:inline-block; padding:10px 15px; color:#fff; font-size:large; font-weight:bold;}
+
+#menuChinh ul li a:hover{background:#f9e54e; }
+
+
+/*CSS cho cột trái, cột phải trong các userControl*/
+
+#cotTrai {
+    float: left;
+    width: 20%;
+    margin:5px 5px;
+    box-sizing:border-box;  /*không làm thay đổi kích thước của div đang xét khi thêm margin, border cho div*/
+    border: 5px solid #5bbdc8;
+    border-radius:5px;
+}
+
+#cotTrai .head{background-color:#f9f9f9; padding:10px; font-weight:bold; border-top:1px solid #dfdfdf; border-bottom:1px solid #dfdfdf;}
+
+#cotTrai .head:first-child{border-top:none;}
+
+#cotTrai ul li{ padding:5px 0;}
+
+#cotPhai {
+    float: right;
+    width: 75%;
+    margin: 5px;
+    box-sizing:border-box;
+    border: 5px solid #5bbdc8;
+    border-radius:5px;
+}

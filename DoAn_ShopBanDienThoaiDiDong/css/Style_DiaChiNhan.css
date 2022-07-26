@@ -1,0 +1,96 @@
+﻿
+#main {
+    width:1095px; 
+    height:700px; 
+    margin:0px auto;
+    border:5px solid #5bbdc8;
+    border-radius:5px 5px;
+    box-sizing:border-box;
+}
+
+
+
+#main .btn:hover{
+    background-color:orange;
+}
+#main >span strong{
+  margin:15px;
+  font-size:larger;
+  
+}
+#top {
+    width:800px; 
+    height:180px;
+    border:3px solid #f9e54e;
+    box-sizing:border-box;
+    margin:15px auto;
+    padding:15px;
+
+}
+
+#top h3{
+    font-weight:bold;
+    display:block;
+    height:20px;
+    width:90%;
+}
+
+#top .btnXoa {
+    background-color:white;
+    border-radius:10px 10px;
+    font-weight:bold;
+    border:1px double #5bbdc8;
+    width:150px;
+    box-shadow:2px 2px #5bbdc8;
+    margin-left:450px;
+}
+#top .btnSua{
+    float:right;
+    background-color:white;
+    border-radius:10px 10px;
+    font-weight:bold;
+    width:60px;
+    border:1px double #5bbdc8;
+    box-shadow:2px 2px #5bbdc8;
+}
+
+
+#top .textbox{
+    width:650px;
+    border-radius:10px 10px;
+}
+
+#cont
+{
+    box-sizing:border-box;
+    width:800px; 
+    height:400px;px;
+    border:3px solid #f9e54e;
+    margin:15px auto;
+    padding:15px;
+}
+#cont >span
+ {
+    font-size:18px;
+}
+
+#cont .textbox{
+    width:650px;
+    border-radius:10px 10px;
+}
+
+}
+#CheckBox1{
+   margin-left:300px;
+}
+#cont .btnDCGiao {
+    margin-top: 20px;
+    color:black;
+    height:30px;
+    margin-left:320px;
+    background-color:white;
+    border-radius:10px 10px;
+    font-weight:bold;
+    border:1px double #5bbdc8;
+    box-shadow:2px 2px #5bbdc8;
+}

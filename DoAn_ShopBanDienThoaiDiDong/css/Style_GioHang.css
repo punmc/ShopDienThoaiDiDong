@@ -1,0 +1,47 @@
+﻿body{
+    width:100%;
+    height:auto;
+}
+
+table{
+    width:100%;
+    border:5px solid orange;
+    border-radius:20px;
+    text-align:center;
+
+}
+
+.hinh{
+    width:250px;
+    height:250px;
+}
+
+.tongtien{
+    color:red;
+    font-weight:bold;
+    font-size:x-large;
+}
+
+
+.btnDatHang{
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: large;
+    border-radius: 10px 10px;
+    font-weight: bold;
+    width: 180px;
+    height: 23px;
+    border: 1px double #5bbdc8;
+    box-shadow: 2px 2px #5bbdc8;
+    float:right;
+}
+
+.btnDatHang:hover{
+    transition:ease-in 0.6s;
+    -moz-transition:ease-in 0.6s;
+    -webkit-transition:ease-in 0;
+    background-color:#ff3939;
+    color:white;
+}
